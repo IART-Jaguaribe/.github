@@ -1,0 +1,32 @@
+name: Feature Request
+description: Suggest a new feature
+title: "[XXXX-0000] Title"
+labels: ["feat"]
+body:
+  - type: textarea
+    id: module
+    attributes:
+      label: Module
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Benefits
+    validations:
+      required: true
+  
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+    validations:
+      required: true

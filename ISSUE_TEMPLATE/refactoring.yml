@@ -1,0 +1,32 @@
+name: Refactoring
+description: Improve existing code
+title: "[XXXX-0000] Title"
+labels: ["refactor"]
+body:
+  - type: textarea
+    id: module
+    attributes:
+      label: Module
+    validations:
+      required: true
+  
+  - type: textarea
+    id: current_state
+    attributes:
+      label: Current State
+    validations:
+      required: true
+  
+  - type: textarea
+    id: proposed_changes
+    attributes:
+      label: Proposed Changes
+    validations:
+      required: true
+  
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Benefits
+    validations:
+      required: true

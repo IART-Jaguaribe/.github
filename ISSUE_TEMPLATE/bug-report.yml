@@ -1,0 +1,59 @@
+name: Bug Report
+description: Report a bug
+title: "[BUGXX-0000] Title"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: guide
+    attributes:
+      label: Guide
+      description: "Ex: Sidebar > Registration > Client > General Data"
+      placeholder: "Path to reproduce"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Mobile
+        - Web
+        - Backend
+    validations:
+      required: true
+  
+  - type: textarea
+    id: module
+    attributes:
+      label: Module
+      description: "Ex: Client Registration"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+    validations:
+      required: true
+  
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result
+    validations:
+      required: true
+  
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      required: false
